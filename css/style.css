@@ -1,0 +1,49 @@
+body{
+	background: #333;
+	color:#fff;
+}
+.navbar{
+	border-bottom: 3px solid #008ed6;
+	opacity: 0.8;
+}
+
+.home-section{
+	background: url('../img/bg-2.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+}
+.home-inner{
+	padding: 120px;
+}
+
+.dark-overlay{
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 700px;
+}
+.card-form{
+	opacity: 0.8;
+}
+.fa{
+	color: #008ed6;
+	background: #fff;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.explore-icon,.share-icon{
+	background: #333;
+	color:#fff;
+	font-size: 15px;
+}
+.create-icon{
+	color: #008ed6;
+	background: #fff;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 15px;
+}
